@@ -36,9 +36,9 @@ const AudioInput = () => {
       <div className='mx-[2vw] max-sm:mx-[3vw] max-sm:pb-[100px] mt-[20px] pt-[20px] flex flex-wrap justify-center gap-x-[20vw] gap-y-[30px]'>
          <div className="input flex flex-col h-[70vh] gap-y-[30px] py-[30px] border-2 border-[rgba(51,50,50)] px-[30px] rounded-[25px] items-center justify-center ">
          {(recording) ? (
-        <img src="./text_recording.avif" alt="" className='w-[300px] rounded-[50%] '/>) : 
+        <img src="/text_recording.avif" alt="" className='w-[300px] rounded-[50%] '/>) : 
         (
-          <img src="./text_rec_stop.avif" alt="" className='w-[300px] rounded-[50%]'/>)}
+          <img src="/text_rec_stop.avif" alt="" className='w-[300px] rounded-[50%]'/>)}
         <div className='flex justify-center items-center gap-x-[15px]'>
         <button onClick={startRecording} disabled={recording} className='border-2 border-[rgba(51,50,50)] px-[25px] py-[10px] rounded-[15px] hover:border-white duration-700'>
           Start Recording

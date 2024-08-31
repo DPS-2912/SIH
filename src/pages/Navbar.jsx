@@ -14,7 +14,7 @@ const Navbar = ({Back,setBack}) => {
         </div>
         ) : (
             <div className='flex gap-x-[10px] items-center ' >
-           <img src="./logo.jpeg" alt="" className='w-[50px] h-[50px] rounded-[50%]' />
+           <img src="/logo.jpeg" alt="" className='w-[50px] h-[50px] rounded-[50%]' />
            <p>Sign Language App</p>
            </div>)
         }
