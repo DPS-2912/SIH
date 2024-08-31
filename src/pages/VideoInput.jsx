@@ -56,7 +56,7 @@ const VideoInput = () => {
         )}
       </div>
       {videoUrl && (
-        <div>
+        <div className='h-[30%]'>
           <video className='w-[300px] h-[75%]' controls>
             <source src={videoUrl} type="video/webm" />
             Your browser does not support the video tag.
