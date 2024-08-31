@@ -44,7 +44,7 @@ const VideoInput = () => {
          <div className='flex flex-col h-[70vh] gap-y-[30px] py-[30px] border-2 border-[rgba(51,50,50)] px-[30px] rounded-[25px] items-center justify-center '>
       <video
         ref={videoRef}
-        className='w-[300px] h-[30%]'
+        className='w-[300px] h-[25%]'
         autoPlay
         muted
       />
@@ -57,7 +57,7 @@ const VideoInput = () => {
       </div>
       {videoUrl && (
         <div>
-          <video className='w-[300px]' controls>
+          <video className='w-[300px] h-[75%]' controls>
             <source src={videoUrl} type="video/webm" />
             Your browser does not support the video tag.
           </video>
